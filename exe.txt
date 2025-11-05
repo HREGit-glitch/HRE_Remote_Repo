@@ -1,0 +1,64 @@
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HosnyRamadan>cd desktop
+
+C:\Users\HosnyRamadan\Desktop>cd  GitLocalRepo
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git init
+Initialized empty Git repository in C:/Users/HosnyRamadan/Desktop/GitLocalRepo/.git/
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git add HelloGitPythonMasterLocalRepo
+fatal: pathspec 'HelloGitPythonMasterLocalRepo' did not match any files
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git add HelloGitPythonMasterLocalRepo.py
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   HelloGitPythonMasterLocalRepo.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HelloGitPythonMasterLocalRepo.py
+
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git commit -m "printing Hello world master branch "
+[master (root-commit) e7a2f75] printing Hello world master branch
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HelloGitPythonMasterLocalRepo.py
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git commit -m "printing Hello world master branch "
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HelloGitPythonMasterLocalRepo.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git add HelloGitPythonMasterLocalRepo.py
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git commit -m "printing Hello world master branch "
+[master 6639282] printing Hello world master branch
+ 1 file changed, 42 insertions(+)
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git add .
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HelloGitPythonMasterLocalRepo.py
+
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git commit -m "printing Hello world master branch "
+[master fa1bdf0] printing Hello world master branch
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+
+C:\Users\HosnyRamadan\Desktop\GitLocalRepo>

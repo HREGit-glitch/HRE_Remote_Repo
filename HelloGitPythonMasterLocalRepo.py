@@ -11,7 +11,8 @@ File  -- Add Folder to Workspace
 GitLocalRepo newfile  HelloGitPythonMasterLocalRepo.py 
 7- U means HelloGitPythonMasterLocalRepo.py is Untracked (needed to be added to Staging Area ) 
 8- Added  HelloGitPythonMasterLocalRepo.py to Staging Area 
-git add HelloGitPythonMasterLocalRepo.py
+git add HelloGitPythonMasterLocalRepo.py   
+if You want to add  all file into your stage you  can write     git add .
 now   elloGitPythonMasterLocalRepo.py          A  (Added to Staging Area) 
 I write on python file it  becomes             M (modified)
 9- Show status 
@@ -41,6 +42,12 @@ It means
  Enter
  [master 6639282] printing Hello world master branch
  1 file changed, 42 insertions(+)
-
+ 11- Make new branch to edit and add and test code before  to macter branch 
+ git checkout -b testbranch
+ output 
+ Switched to a new branch 'testbranch'
+  C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git status
+  On branch testbranch
 '''
 print("Hello python world master branch ")
+print("Hello python world test branch ")
