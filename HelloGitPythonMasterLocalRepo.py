@@ -48,6 +48,18 @@ It means
  Switched to a new branch 'testbranch'
   C:\Users\HosnyRamadan\Desktop\GitLocalRepo>git status
   On branch testbranch
+12 - commit 
+git commit -m "printing Hello world test branch "
+print("Hello python world test branch ")
+output 
+[testbranch fa953f8] printing Hello world test branch
+ 2 files changed, 73 insertions(+), 2 deletions(-)
+ create mode 100644 exe.txt
+13- Update master branch by test branch edit 
+A-  git checkout -b master
+ output 
+ Switched to a new branch 'master'
+B- git merge  testbranch 
 '''
 print("Hello python world master branch ")
 print("Hello python world test branch ")
