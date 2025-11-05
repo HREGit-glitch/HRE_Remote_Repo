@@ -125,4 +125,16 @@ A-  git checkout -b master
  output 
  Switched to a new branch 'master'
 B- git merge  testbranch 
+
+14- Remote Repositry Push  from local to remote 
+git remote add HRE_Remote_Repo_Origin https://github.com/HREGit-glitch/HRE_Remote_Repo.git
+git branch -M main
+git push -u HRE_Remote_Repo_Origin main
+15- Remote Repositry pull  from remote to local   
+git pull HRE_Remote_Repo_Origin main
+16- Ignore txt file in git ignore icon
+echo "">.gitignore
+open gitignore file and put delete  ""   and put unwanted trak file  name int
+notes.txt  U  ----->  exe.txt     -----> 
+17 - Edit again in file and push From local  to  Remote 
 '''
