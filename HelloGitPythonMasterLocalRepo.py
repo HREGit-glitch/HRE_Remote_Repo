@@ -17,7 +17,7 @@ I write on python file it  becomes             M (modified)
 9- Show status 
    git status
    it will give us status 
-
+Enter
 On branch master
 
 No commits yet
@@ -37,6 +37,10 @@ It means
 
  10- Commit the file with last update message like we print Hello 
  git commit -m "printing Hello world master branch "
- print("Hello python world master branch ")
+ #print("Hello python world master branch ")
+ Enter
+ [master 6639282] printing Hello world master branch
+ 1 file changed, 42 insertions(+)
+
 '''
 print("Hello python world master branch ")
