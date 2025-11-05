@@ -137,4 +137,7 @@ echo "">.gitignore
 open gitignore file and put delete  ""   and put unwanted trak file  name int
 notes.txt  U  ----->  exe.txt     -----> 
 17 - Edit again in file and push From local  to  Remote 
+18- download remote repo file in your local pathspe
+C:\Users\HosnyRamadan>cd downloads
+C:\Users\HosnyRamadan\Downloads>git clone https://github.com/HREGit-glitch/HRE_Remote_Repo.git
 '''
